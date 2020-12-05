@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 
 const uploadRouter = require('./routes/uploadRouter');
-const hostname = '0.0.0.0';
+const hostname = '127.0.0.1';
 const port = 80;
 
 const app = express();
