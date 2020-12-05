@@ -8,8 +8,10 @@ Install Nodejs for the application
 
 git clone https://github.com/TheG00dB0y/humanadl_fall_detection
 cd ./humanadl_fall_detection
-npm install //installing node modules
-node index  //Running node application
+//installing node modules
+npm install 
+//Running node application
+node index  
 
 
 
