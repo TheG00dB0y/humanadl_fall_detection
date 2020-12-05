@@ -4,7 +4,7 @@ An ML model which can detect some activities of daily life like Sit,Stand,Bend,T
 ## Installation
 
 ```
-Install Nodejs for the application
+Install Nodejs 
 
 git clone https://github.com/TheG00dB0y/humanadl_fall_detection
 cd ./humanadl_fall_detection
