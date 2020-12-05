@@ -16,8 +16,10 @@ node index
 ```
 ## NOTE:
 Change ALERT_THRESH value to change the frequency in which snaps are taken on detection of an alert
+
 Currently alert is defined as "Stand" for an easy demo, do change the ALERT_CLASS to required class name (Available classes: Sit,Stand,Bend,Trip,Fall)
 
 ## Issues
 Make sure to enter '127.0.0.1 ' in the browser address bar due to CORS policy error. (AJAX POST request is send to that address/server)
+
 Chrome is not setting the img src as empty works fine with firefox
