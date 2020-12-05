@@ -1,0 +1,62 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+ #camera,#canvas,#camera--output{
+    position: fixed;
+    height: 100%;
+    width: 50%;
+    right:0;
+    object-fit: cover;
+}
+
+ #canvas, #camera--output{
+    transform: scaleX(-1);
+    filter: FlipH;
+}
+#camera--button{
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    position: absolute;
+    bottom: 30px;
+    margin: 0 auto;
+    left: calc(50% - 100px);
+}
+#label-container{
+    font-size: 20px;
+    color: rgb(5, 5, 5);
+}
+.taken{
+    height: 100px!important;
+    width: 100px!important;
+    transition: all 0.5s ease-in;
+    border: solid 3px white;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+}
+.centered {
+    position: absolute;
+    top: 100%;
+    left: calc(50% - 100px);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+  }
+.alert_response{
+    color: red;
+    font-size: 14px;
+}
+#alert_disp{
+    font-size: 26px;
+}

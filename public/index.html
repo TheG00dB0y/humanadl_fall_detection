@@ -1,0 +1,30 @@
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Name of app -->
+<title>Camera App</title> 
+<!-- Link to your main style sheet-->
+<link rel="stylesheet" href="style.css"> 
+</head>
+
+<main id="camera"></main>
+    <div>Teachable Machine Pose Model</div>
+    <div><canvas id="canvas"></canvas>
+    <div>
+        <button id="camera--button">Snap</button>
+        </div>
+    </div>
+    <!-- Camera output -->
+    <img src="//:0" alt="" id="camera--output">
+</main>
+<div class = "alert_response">
+    <p id="response">
+        </p>
+        <p id="alert_disp">
+        </p>
+</div>
+<div id="label-container"></div>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/pose@0.8/dist/teachablemachine-pose.min.js"></script>
+<script src="app.js"></script> 
+</script>
