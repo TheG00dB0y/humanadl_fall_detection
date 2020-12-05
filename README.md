@@ -1,5 +1,5 @@
 # humanadl_fall_detection
-An ML model which can detect activities of daily life like Sit,Stand,Bend,Trip,Fall. Model detects human fall position take snaps at the incident and sends it to the nodejs application for storing. The model is trained using https://teachablemachine.withgoogle.com/train/pose. Do train on a different environment the model can fail on a varied data distribution.
+An ML model which can detect activities of daily life like Sit,Stand,Bend,Trip,Fall. Model detects human fall position take snaps at the incident and sends it to the nodejs application for storing. The model is trained using https://teachablemachine.withgoogle.com/train/pose. Do train on a different environment the model can fail on a different data distribution.
 
 ## Installation
 
